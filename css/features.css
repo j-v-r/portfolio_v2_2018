@@ -1,0 +1,82 @@
+section.features {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    margin: 2rem 0;
+}
+
+div.about, div.resume {
+    width: 90%;
+    height: 400px; 
+    margin: 0 auto 3rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+div.resume {
+    max-height: 600px;
+}
+
+div.about p, div.resume p {
+    margin: 1rem;
+    text-align: justify;
+}
+
+div.project-card {
+    width: 94%;
+    margin: 1.5rem auto;
+    border: white solid 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+img.thumbnail-img {
+    width: 250px;
+    margin: .5rem auto;
+    display: block;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+div.project-card a {
+    color: white;
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
+div.project-card a:hover {
+    font-size: 1.85rem;
+    transition: 1.5s;
+}
+
+@media screen and (min-width: 600px) {
+    section.features {
+        flex-direction: row;
+        justify-content: center;
+    }
+    div.about, div.resume {
+        width: 46%;
+        margin: 1rem 1%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    div.about, div.resume {
+        width: 44%;
+        margin: 1rem 1.5%;
+    }
+    div.project-card {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.about, div.resume {
+        width: 40%;
+        margin: 1rem 2.5%;
+    }
+}

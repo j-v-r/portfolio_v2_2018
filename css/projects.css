@@ -1,0 +1,42 @@
+div.project {
+    width: 90%;
+    height: 400px;
+    overflow: auto;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+div.card-border {
+    width: 95%;
+    margin: auto;
+    padding: .5rem;
+    text-align: center;
+    border: solid white 3px;
+    border-radius: 3px;
+}
+
+div.card-border p {
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+div.card-border a {
+    color: white;
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
+div.card-border a:hover {
+    font-size: 1.85rem;
+    transition: 1.5s;
+}
+
+@media screen and (min-width: 800px) {
+    div.project {
+        width: 40%;
+        margin: 1rem auto;
+    }
+}

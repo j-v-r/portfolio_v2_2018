@@ -1,0 +1,75 @@
+section.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.nav_button:first-of-type {
+    margin-top: 1rem;
+}
+
+div.nav_button {
+    width: 50%;
+    margin: .5rem auto;
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+}
+
+div.nav_button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    padding: 1rem 0;
+    display: inline-block;
+}
+
+div.nav_button:hover {
+    transform: scale(1.065);
+    transition: 1.5s;
+}
+
+@media screen and (min-width: 600px) {
+    section.nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    div.nav_button {
+        width: 30%;
+        margin: .5rem 1.5%;
+        text-align: center;
+        background-color: black;
+    }
+    div.nav_button:first-of-type {
+        margin-top: .5rem;
+    }
+    div.nav_button a {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    section.nav {
+        margin-top: 1rem;
+    }
+    div.nav_button {
+        width: 225px;
+        margin: .5rem auto;
+        text-align: center;
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    section.nav {
+        margin-top: 1rem;
+    }
+    div.nav_button {
+        width: 250px;
+        margin: .5rem auto;
+        text-align: center;
+        background-color: black;
+    }
+}

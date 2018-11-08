@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    background-color: black;
+    padding: .5rem 0;
+}
+
+div.contact {
+    width: 300px;
+    margin: auto;
+}
+
+div.footer-logo {
+    display: inline-block;
+    width:49%;
+    margin: auto;
+    text-align: center;
+}
+
+div.github a img {
+    padding-bottom: 15px;
+}
+
+div.footer-logo:hover {
+    transform: scale(1.065);
+    transition: 1.5s;
+}
