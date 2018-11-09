@@ -23,6 +23,12 @@ var projects = [
         title: "Open Library API Ajax",
         url: "johnr-webdev.com/treehouseProject10/",
         description: "This project was my first time using AJAX technology to work with data from another application via their API. Similar to Post Diskus, this is a project I intend to revisit overtime and refactor. I am learning more about RESTful applications and the conventions used. I hope to develop a more full fledged application that can pull information on all books in Open Libraries database."
+       },
+       {
+        image: "assets/thumbnail_imgs/optimization.png",
+        title: "Optimization Project",
+        url: "johnr-webdev.com/treehouseProject11/",
+        description: "In this project I had to put my understanding of website optimization to the test. I was given a poorly optimized set of files for a website. I made the site more ready for production by pruning the HTML, optimizing font use, and preventing blocking scripts. I also used Gulp.js to reduce image sizes, as well as to concat and minify JavaScript and CSS files."
        }
 ];
 

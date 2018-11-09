@@ -8,7 +8,6 @@ section.features {
 
 div.about, div.resume {
     width: 90%;
-    height: 400px; 
     margin: 0 auto 3rem;
     padding: 1rem;
     background-color: black;
@@ -44,13 +43,13 @@ img.thumbnail-img {
 
 div.project-card a {
     color: white;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
 div.project-card a:hover {
-    font-size: 1.85rem;
-    transition: 1.5s;
+    font-size: 1.65rem;
+    transition: 1s;
 }
 
 @media screen and (min-width: 600px) {

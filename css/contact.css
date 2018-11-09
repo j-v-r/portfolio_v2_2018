@@ -19,7 +19,7 @@ div.email p {
     margin: 1rem;
     text-align: justify;
     line-height: 2.5rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 div.email a {
@@ -37,11 +37,5 @@ div.email a {
 @media screen and (min-width: 800px) {
     div.email {
         width: 50%;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    div.email {
-        width: 30%;
     }
 }
