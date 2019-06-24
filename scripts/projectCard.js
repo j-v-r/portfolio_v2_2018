@@ -37,7 +37,7 @@ for(var i = 0; i < projects.length; i++) {
              <div class="project-card">
                 <img class="thumbnail-img" src="${projects[i].image}">
                 <h3>${projects[i].title}</h3>
-                <a href="http://${projects[i].url}">${projects[i].url}</a>
+                <a href="http://${projects[i].url}" target="_blank">${projects[i].url}</a>
                 <p>&nbsp;&nbsp;${projects[i].description}</p>
             </div>
             `

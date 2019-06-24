@@ -27,6 +27,11 @@ h3 {
     margin-bottom: 1rem;
 }
 
+a:link,
+a:visited {
+    color: white;
+}
+
 div.content {
     flex: 1 0 auto;
 }
